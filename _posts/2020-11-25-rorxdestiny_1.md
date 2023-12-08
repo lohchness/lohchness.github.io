@@ -5,7 +5,10 @@ title: RoRxDestiny 1 - Inception
 date: 2023-11-25 18:36:00 +0800
 categories: [RoRxDestiny]
 tags: [gamedev]     # TAG names should always be lowercase
+image:
+    path: /assets/images/riven.png
 ---
+
 
 ## Why did you want to start making this game?
 
