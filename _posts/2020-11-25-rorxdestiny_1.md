@@ -1,18 +1,16 @@
 ---
-# layout: posts
-# toc: true
 title: RoRxDestiny 1 - Inception
 date: 2023-11-25 18:36:00 +0800
 categories: [RoRxDestiny]
 tags: [gamedev]     # TAG names should always be lowercase
 image:
-    path: /assets/images/riven.png
+    path: /assets/images/terminal.jpg
 ---
 
 
 ## Why did you want to start making this game?
 
-I needed something to do to build experience. I felt like I could pull something like this off for once, after learning so much at UniMelb. Doing side projects in C or Processing didn't feel too fulfilling - anyone could plug these small steps into StackOverflow or ChatGPT and get their answers in moments. Besides, it makes for a good resume or portfolio project. It's going to start small and might grow to be something big.
+I needed something to do. I also felt like I could pull something like this off for once, after learning so much at UniMelb. Doing side projects in C or Processing didn't feel too fulfilling - anyone could plug these small steps into StackOverflow or ChatGPT and get their answers in moments. Besides, it makes for a good resume or portfolio project. It's going to start small and might grow to be something big.
 
 ## Why start devlogging?
 
@@ -32,7 +30,7 @@ A roguelike, of course. What else would anyone make for their first big game pro
 
 I'm kidding, but I did have another idea before choosing the roguelike in the end. I wanted to make some kind of space-themed text based game crossed with FTL, Seedship, Stellaris, and Starfield. You could customize every part of your ship with modular components, pick a point on a 3D map and fly there, provided you had enough fuel and your jump drive could reach it. There was a galaxy map and planets in each system, with dialogues and characters and vendors. There would be an overall story with side quests you could pick up, tying into one another. I planned the story before I realized the scope of the project, and how unreasonable it would be for a first big game. So I had to settle on something else, and I already knew the answer.
 
-Call me old fashioned but I loved Risk of Rain 1 over Risk of Rain 2. The sequel just never felt the same as the first. It felt slow and I did not enjoy that you actually had to think about your build on harder difficulties. To me Risk of Rain was always a "shoot, turn your mind off, have fun" game, even on the hardest difficulty. I liked Vampire Survivors and 20 Minutes Until Dawn, and how you could mix upgrades and weapons together to create synergies become unstoppable. I also liked the buildcrafting and raiding/dungeon aspects of Destiny 2, where you complete multiple "encounters" involving puzzle mechanics and maybe a boss fight, leading up to a final boss encounter. I had also read sci-fi - Alastair Reynolds, Iain Banks, Frank Herbert - and I devoured them. I took these ideas (as well as the space idea because I liked space) and it became the foundation of the game I wanted to create. I hadn't played a lot of other roguelikes, and my idea would not be the first, but I knew where to take it and I thought I would be proud of my end product.
+Call me old fashioned but I loved Risk of Rain 1 over Risk of Rain 2. The sequel just never felt the same as the first. It felt slow and I did not enjoy that you actually had to think about your build on harder difficulties. To me Risk of Rain was always a "shoot, turn your mind off, have fun" game, even on the hardest difficulty. I liked Vampire Survivors and 20 Minutes Until Dawn, and how you could mix upgrades and weapons together to create synergies become unstoppable. I also liked the buildcrafting and raiding/dungeon aspects of Destiny 2, where you complete multiple "encounters" involving puzzle mechanics and maybe a boss fight, leading up to a final boss encounter. I had also read sci-fi books - Alastair Reynolds, Isaac Asimov, Frank Herbert - and I devoured them. I took these ideas (as well as the space idea because I liked space) and it became the foundation of the game I wanted to create. I hadn't played a lot of other roguelikes, and my idea would not be the first, but I knew where to take it and I thought I would be proud of my end product.
 
 ## What are the game mechanics, rules, etc and how will it be fun?
 
@@ -44,7 +42,7 @@ The puzzle aspect is taken from the dungeon/raiding part of Destiny 2. I don't w
 
 ## How much time will you dedicate to this?
 
-I am not going to focus all my time on this. From experience, it will lead to burnout, overthinking, exhaustion, then inevitably put on the "list of things to do". I also have other hobbies that I allocate time for: running, cooking, drawing, gaming, and reading. After completing four half marathons, I am training for a full one. I am in the middle of rereading some of my favourite books. I raid with friends every few days. But I do want to make progress in a regular manner.
+I am not going to focus all my time on this. From experience, it will lead to burnout, overthinking, exhaustion, then inevitably put on the ever-growing "list of things to do". I also have other hobbies that I allocate time for: running, cooking, drawing, gaming, and reading. After completing four half marathons, I am training for a full one. I am in the middle of rereading some of my favourite books. I raid with friends every few days. But I do want to make progress in a regular manner.
 
 ## Could you summarize parts of the story of the original game you had planned before reality set in?
 
@@ -52,13 +50,15 @@ Why, thank you for asking! Keep in mind I had abandoned planning the story after
 
 > The city of Glass lay before me, tens of miles below the transport bringing hundreds of passengers down from the spaceport. 
 > 
-> The metropolis sprawled across one of the only contiguous landmasses of Cascadia. An ordered tangle of marble-white megalithic complexes stretched from a sunrise at one end to a sunset at the other, with the occasional spire breaking through the plascrete jungle which thrusted into the stratosphere.
+> The metropolis sprawled across one of the only contiguous landmasses of Cascadia. An ordered tangle of marble-white megalithic complexes stretched from sunrise to sunset, with the occasional spire breaking through the plascrete jungle which thrusted into the stratosphere.
 
 In the near future, gateway technology has paved the way for a new golden age of exploration. It has not been long since the first gateways were built, so humanity has only colonized a number of nearby systems. 
 
 The player is a specialized courier, working for a nondescript company in the biggest terminal hub of the settled systems. This company is a front for the transport of illegal or illicit goods to anyone - pay the steep fee, give an address and time, and it will probably reach its destination. Couriers are trained in social engineering and combat, and have established rapport with many people across the systems. Since space travel is strictly regulated, clients ranging from the highest of classes to the dirt poor turn to these services for business.
 
 > I was born in a house with a million rooms, built on a small, airless world on the edge of an empire of light and commerce.
+>
+> During the years of my childhood, I only saw a fraction of that vast, rambling, ever-changing mansion. Even as I grew older, I doubt that I ever explored more than a hundredth of it. I was intimidated by the long, forbidding corridors or mirror and glass, the corkscrewing staircases rising from dark cellars and golden vaults where even the adults never went, the rooms and parlours that were alleged to be haunted. The elevators alarmed me when they moved without apparent instruction, obeying some inscrutable whim of the house's governing persona. It was a mansion of ghosts and monsters, with ghouls in the shadows and demons scurrying behind the cupboards.
 
 The player maintains or builds rapport with people across planets while carrying out routine deliveries, doing side quests for underground street rats, mercenaries, local governments, and corporations. 
 

@@ -1,56 +1,27 @@
-# Chirpy Starter
+# lohchness.github.io
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+[Lohchness public website](lohchness.github.io)
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+Powered by Ruby and Jekyll. Text-focused custom theme. Deployed on GitHub pages.
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+Requires Ruby, RubyGems, and [Jekyll](https://github.com/jekyll/jekyll) to run. 
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+`cd` into the root directory.
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
+```
+bundle exec jekyll s
 ```
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+The website will be located at `localhost:4000`. Changes in `_config.yml` will require a reload.
 
-## Prerequisites
+# GitHub Deployment
 
-Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of
-the basic environment. [Git](https://git-scm.com/) also needs to be installed.
+Double check `/.github/workflows/` for GitHub Actions.
 
-## Installation
+If `Gemfile.lock` is commited and you are not running Linux, update the platform list of the lock-file:
 
-Sign in to GitHub and [**use this template**][use-template] to generate a brand new repository and name it
-`USERNAME.github.io`, where `USERNAME` represents your GitHub username.
+`bundle lock --add-platform x86_64-linux`
 
-Then clone it to your local machine and run:
+Then, configure the Pages service. Under Settings>Pages, select GitHub Actions in the Source section under Build and deployment.
 
-```console
-$ bundle
-```
-
-## Usage
-
-Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
-
-## License
-
-This work is published under [MIT][mit] License.
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[use-template]: https://github.com/cotes2020/chirpy-starter/generate
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+Push any commits to trigger the workflow.
