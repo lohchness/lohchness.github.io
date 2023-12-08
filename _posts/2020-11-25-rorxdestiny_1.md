@@ -1,7 +1,7 @@
 ---
 # layout: posts
 # toc: true
-title: DevBlog 1 - Inception
+title: RoRxDestiny 1 - Inception
 date: 2023-11-25 18:36:00 +0800
 categories: [RoRxDestiny]
 tags: [gamedev]     # TAG names should always be lowercase
@@ -43,7 +43,7 @@ The puzzle aspect is taken from the dungeon/raiding part of Destiny 2. I don't w
 
 I am not going to focus all my time on this. From experience, it will lead to burnout, overthinking, exhaustion, then inevitably put on the "list of things to do". I also have other hobbies that I allocate time for: running, cooking, drawing, gaming, and reading. After completing four half marathons, I am training for a full one. I am in the middle of rereading some of my favourite books. I raid with friends every few days. But I do want to make progress in a regular manner.
 
-## Could you summarize what parts story of the game you had planned before this before reality set in?
+## Could you summarize parts of the story of the original game you had planned before reality set in?
 
 Why, thank you for asking! Keep in mind I had abandoned planning the story after I realized the scope of the game, but I had written some excerpts/lore and some art on the side as well. So, the lesson here is that first decide on the game mechanics *then* plan out the story.
 
@@ -65,7 +65,7 @@ The player is tasked with infiltrating and sabotaging the production of Wanderbo
 
 If the player chooses to stay with Pirandello, they remove any hope of a power grab by sabotaging the mega-manufactories, and intercepts communications pinpointing the locations of the engineering leads. The veteran company ousts the corporate houses in the next general assembly.
 
->CRYOGUN
+> Cryo-rifle
 > 
 > NOT a freeze ray. Made to be small and inconspicuous. Fires ice-slugs: bullets of pure water-ice accelerated to supersonic speed by a captive jacket driven down the barrel by a sequenced ripple of magnetic fields.
 > 
