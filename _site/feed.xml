@@ -1,0 +1,59 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>Loki's DevLogs</title>
+  <subtitle>Minimal, responsive and feature-rich for technical writing.</subtitle>
+  <updated>2023-12-08T09:03:12+08:00</updated>
+  <author>
+    <name>Tom Lok Chow</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
+  <rights> © 2023 Tom Lok Chow </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>RoRxDestiny 1 - Inception</title>
+    <link href="http://localhost:4000/posts/rorxdestiny_1/" rel="alternate" type="text/html" title="RoRxDestiny 1 - Inception" />
+    <published>2023-11-25T18:36:00+08:00</published>
+  
+    <updated>2023-11-25T18:36:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/rorxdestiny_1/</id>
+    <content src="http://localhost:4000/posts/rorxdestiny_1/" />
+    <author>
+      <name>Tom Lok Chow</name>
+    </author>
+
+  
+    
+    <category term="RoRxDestiny" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Why did you want to start making this game?
+
+I needed something to do to build experience. I felt like I could pull something like this off for once, after learning so much at UniMelb. Doing side projects in C or Processing didn’t feel too fulfilling - anyone could plug these small steps into StackOverflow or ChatGPT and get their answers in moments. Besides, it makes for a good resume or portf...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
