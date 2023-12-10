@@ -17,8 +17,7 @@ timezone:
 
 title: Loki's DevLogs # the main title
 
-
-tagline: DevLogs for anything I want to write. Check out my other website # it will display as the sub-title
+tagline: Ramblings for the world to see. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Minimal, responsive and feature-rich for technical writing.
