@@ -3,6 +3,8 @@ title: Shorts Collection 1
 date: 2023-11-12 10:53:03 +0800
 categories: [Writing]
 tags: [gamedev, lore]     # TAG names should always be lowercase
+image:
+    path: /assets/images/starliner.jpg
 ---
 
 ## Intro
@@ -13,15 +15,23 @@ ___
 
 ## One
 
-Cryo-rifle
+His name was Gabriel Laurent.
 
-NOT a freeze ray. Made to be small and inconspicuous. Fires ice-slugs: bullets of pure water-ice accelerated to supersonic speed by a captive jacket driven down the barrel by a sequenced ripple of magnetic fields.
+He was a GSA scientist working at one of the permanent stations near what was now called the Laurent Gate, in the trans van Maanen sector. Laurent was also one of a team kept on permanent stand-by should there ever be a need for human delegates to travel to the Gate, although no one considered that this was very likely. But the delegates existed, with a ship kept in readiness to carry them the remaining five hundred million kilometres to the boundary, should the invitation ever arrive.
 
-Ice slugs do as much damage as metal or ceramic bullets, but when they shatter in the body, their fragments melt away invisibly.
+Laurent decided not to wait.
 
-The main advantage in such a weapon is that it could be charged from any supply of reasonably pure water, although it works best with carefully pre-frozen cache of slugs in the weapon's manufacturer-supplied cryo-clip.
+Alone, he boarded and stole the GSA contact craft. By the time anyone realized what was happening, it was far too late to stop him. Of course, a remote destruct existed, but its use might have been construed by the Gate as an act of aggression, something no one wanted to risk. The decision was to let fate take its course. No one seriously expected to see Laurent come back alive. And though he did eventually return, his doubters had in a sense been right, because a large portion of his sanity had not come back with him.
 
-It is nearly impossible to trace the owner of such a gun if a crime has been committed, making it an ideal assassination tool. The slugs have no autonomous target-seeking capacity, and they cannot penetrate certain kinds of armour. This is not meant to be a gun for a kill where you sit in a window squinting through the telescopic sight of a high-powered rifle, waiting until your target intersects the crosshairs, their image wavering through kilometres of heat-haze. This is a gun where you walked into the same room and did it with a single bullet at close range, close enough to see the whites of their fear-dilated eyes.
+Laurent had come very close indeed to the Shroud before some force had propelled him back out again - perhaps only a few tens of thousands of kilometres from the surface, although at that range there was no easy way of telling where physical space ended and the portal began. No one doubted that he had come closer than any other human being, or for that matter any living creature.
+
+But the cost had been horrific.
+
+Not all of Gabriel Laurent - not even most of him - had come back. Unlike those who had gone before him, his body had not been twisted and shredded by incomprehensible forces near the boundary. But something no less final appeared to have happened to his mind. Nothing remained of his personality, except for a few residual traces which served only to heighten the almost absolute obliteration of anything else. There was enough brain function remained to keep himself alive without machine assistance, and his motor control seemed completely unimpaired. But there was no intelligence left - no sense that Laurent perceived his surroundings except in the most simplistic manner; no indication that he had any grasp of what happened to him; no awareness of the passage of time; no indication that he retained the ability to memorise new experiences or retrieve those that had happened to him before his trip to the Shroud. He retained the ability to speak, but while he sometimes spoke well-formed words or even fragments of sentences, nothing made the slightest sense.
+
+Laurent - or what remained of Laurent - was returned to the GSA habitat where medical experts desperately tried to construct a theory for what might have happened. Eventually - and it was more out of desperation than logic - they decided that the fractal, restructured spacetime around the portal had not been able to support the information density of his brain. His mind had been randomized on the quantum level, although the molecular processes of his body had not been noticeably affected. He was like a text which had been translated imprecisely - so that much of the meaning was lost - and then retranslated.
+
+Yet Laurent was not the last person to attempt this suicide mission. A cult had grown up around him, its chief belief being that the passage close to the Gate had bestowed on him something like nirvana, despite his signs of dementia. Once or twice every decade, around the known Gates, someone would attempt to follow Laurent into the boundary, and the results were miserably consistent, and no improvement on what Laurent himself had achieved. The lucky ones came back with half their minds gone, while the unlucky ones never made it back at all, or did so in ships so mangled that their human remains resembled a rose-coloured paste.
 
 ___
 
@@ -34,7 +44,7 @@ She was a politician, a constituent from the Congress of the Neume Ring. She spo
 
 The chamber had been constructed in the early decades of the Assembly, when it had aspirations to expand into territory now occupied by neighbouring politics. Space not being at a premium in the centre of Assembly territory, the thousands of representatives were scattered across a square kilometre of gently sloping floor space, and the ceiling was ten kilometres above their heads. Slowly rotating in the middle of the room, lacking any material suspension, was the display cube in which their enlarged images would appear when they had the floor. While it waited for the session to begin, the cube projected the emblem of the Assembly. 
 
-It was difficult to judge the mood of the gathering. But her husband's advice had been sound. She held her nerve, and when she had the floor she spoke the words she had already committed to memory before leaving home.
+It was difficult to judge the mood of the gathering. But her husband's advice had been sound. She held her nerve, and when she had the floor she spoke the words she had already committed to memory long before leaving home.
 
 "Honoured delegates," she began, as her magnified image appeared in the display cube...
 
@@ -92,23 +102,19 @@ E: Most digs have basic infrastructure if human presence should be needed. Proba
 
 L: You have no idea. Just get me down there. I'll see for myself. -->
 
-His name was Gabriel Laurent.
+<u><b>Shipping Details:</b></u> 
 
-He was a GSA scientist working at one of the permanent stations near what was now called the Laurent Gate, in the trans van Maanen sector. Laurent was also one of a team kept on permanent stand-by should there ever be a need for human delegates to travel to the Gate, although no one considered that this was very likely. But the delegates existed, with a ship kept in readiness to carry them the remaining five hundred million kilometres to the boundary, should the invitation ever arrive.
+-Order: Cryo-rifle
 
-Laurent decided not to wait.
+-Shipping Method: High Priority/Volatile
 
-Alone, he boarded and stole the GSA contact craft. By the time anyone realized what was happening, it was far too late to stop him. Of course, a remote destruct existed, but its use might have been construed by the Gate as an act of aggression, something no one wanted to risk. The decision was to let fate take its course. No one seriously expected to see Laurent come back alive. And though he did eventually return, his doubters had in a sense been right, because a large portion of his sanity had not come back with him.
+-Order Details: NOT a freeze ray!!! This is made to be small and inconspicuous. It fires ice-slugs: bullets of pure water-ice accelerated to supersonic speed by a captive jacket driven down the barrel by a sequenced ripple of magnetic fields.
 
-Laurent had come very close indeed to the Shroud before some force had propelled him back out again - perhaps only a few tens of thousands of kilometres from the surface, although at that range there was no easy way of telling where physical space ended and the portal began. No one doubted that he had come closer than any other human being, or for that matter any living creature.
+Ice slugs do as much damage as metal or ceramic bullets, but when they shatter in the body, their fragments melt away invisibly.
 
-But the cost had been horrific.
+The main advantage in such a weapon is that it could be charged from any supply of reasonably pure water, although it works best with carefully pre-frozen cache of slugs in the weapon's manufacturer-supplied cryo-clip.
 
-Not all of Gabriel Laurent - not even most of him - had come back. Unlike those who had gone before him, his body had not been twisted and shredded by incomprehensible forces near the boundary. But something no less final appeared to have happened to his mind. Nothing remained of his personality, except for a few residual traces which served only to heighten the almost absolute obliteration of anything else. There was enough brain function remained to keep himself alive without machine assistance, and his motor control seemed completely unimpaired. But there was no intelligence left - no sense that Laurent perceived his surroundings except in the most simplistic manner; no indication that he had any grasp of what happened to him; no awareness of the passage of time; no indication that he retained the ability to memorise new experiences or retrieve those that had happened to him before his trip to the Shroud. He retained the ability to speak, but while he sometimes spoke well-formed words or even fragments of sentences, nothing made the slightest sense.
-
-Laurent - or what remained of Laurent - was returned to the GSA habitat where medical experts desperately tried to construct a theory for what might have happened. Eventually - and it was more out of desperation than logic - they decided that the fractal, restructured spacetime around the portal had not been able to support the information density of his brain. His mind had been randomized on the quantum level, although the molecular processes of his body had not been noticeably affected. He was like a text which had been translated imprecisely - so that much of the meaning was lost - and then retranslated.
-
-Yet Laurent was not the last person to attempt this suicide mission. A cult had grown up around him, its chief belief being that the passage close to the Gate had bestowed on him something like nirvana, despite his signs of dementia. Once or twice every decade, around the known Gates, someone would attempt to follow Laurent into the boundary, and the results were miserably consistent, and no improvement on what Laurent himself had achieved. The lucky ones came back with half their minds gone, while the unlucky ones never made it back at all, or did so in ships so mangled that their human remains resembled a rose-coloured paste.
+It is nearly impossible to trace the owner of such a gun if a crime has been committed, making it an ideal assassination tool. The slugs have no autonomous target-seeking capacity, and they cannot penetrate certain kinds of armour. This is not meant to be a gun for a kill where you sit in a window squinting through the telescopic sight of a high-powered rifle, waiting until your target intersects the crosshairs, their image wavering through kilometres of heat-haze. This is a gun where you walk into the same room and do it with a single bullet at close range, close enough to see the whites of their fear-dilated eyes.
 
 ___
 
