@@ -6,6 +6,10 @@
 # - type: twitter
 #   icon: "fa-brands fa-x-twitter"
 
+- type: instagram
+  icon: "fab fa-instagram-square"
+  url: 'https://www.instagram.com/lock.chow'
+
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab

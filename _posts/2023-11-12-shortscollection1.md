@@ -9,7 +9,7 @@ image:
 
 ## Intro
 
-These are the some parts of very short stories that I make, and are interesting to me. I either extend off of existing ideas, or create ones entirely new. These are mostly sci-fi themed.
+These are some parts of very short stories that I make, and/or are interesting to me. I either extend off of existing ideas, or create ones entirely new. These are mostly sci-fi themed.
 
 ___
 
@@ -27,7 +27,7 @@ Laurent had come very close indeed to the Shroud before some force had propelled
 
 But the cost had been horrific.
 
-Not all of Gabriel Laurent - not even most of him - had come back. Unlike those who had gone before him, his body had not been twisted and shredded by incomprehensible forces near the boundary. But something no less final appeared to have happened to his mind. Nothing remained of his personality, except for a few residual traces which served only to heighten the almost absolute obliteration of anything else. There was enough brain function remained to keep himself alive without machine assistance, and his motor control seemed completely unimpaired. But there was no intelligence left - no sense that Laurent perceived his surroundings except in the most simplistic manner; no indication that he had any grasp of what happened to him; no awareness of the passage of time; no indication that he retained the ability to memorise new experiences or retrieve those that had happened to him before his trip to the Shroud. He retained the ability to speak, but while he sometimes spoke well-formed words or even fragments of sentences, nothing made the slightest sense.
+Not all of Gabriel Laurent - not even most of him - had come back. Unlike those who had gone before him, his body had not been twisted and shredded by incomprehensible forces near the boundary. But something no less final appeared to have happened to his mind. Nothing remained of his personality, except for a few residual traces which served only to heighten the almost absolute obliteration of anything else. There was enough brain function remained to keep himself alive without machine assistance, and his motor control seemed completely unimpaired. But there was no intelligence left - no sense that Laurent perceived his surroundings except in the most simplistic manner; no indication that he had any grasp of what happened to him; no awareness of the passage of time; no indication that he retained the ability to memorise new experiences or retrieve those that had happened to him before his trip to the Gate. He retained the ability to speak, but while he sometimes spoke well-formed words or even fragments of sentences, nothing made the slightest sense.
 
 Laurent - or what remained of Laurent - was returned to the GSA habitat where medical experts desperately tried to construct a theory for what might have happened. Eventually - and it was more out of desperation than logic - they decided that the fractal, restructured spacetime around the portal had not been able to support the information density of his brain. His mind had been randomized on the quantum level, although the molecular processes of his body had not been noticeably affected. He was like a text which had been translated imprecisely - so that much of the meaning was lost - and then retranslated.
 
