@@ -33,7 +33,7 @@ Turns out how sound is digitally encoded is a lot more difficult than I thought.
 
 But I had a working version. I'm missing about half the spectrum if you compare it to a Monstercat video, but it works well enough. Most of the work left is to just pore through the sound library Minim's documentation to look for the correct functions to use to get the lower half of the spectrum. Then maybe refactoring some of the code for processing the values before being drawn. But! Here is the (half) working version in high quality and 60 fps:
 
-<iframe width="500" height="250" src="http://www.youtube.com/embed/5qB2VDdLEVU" frameborder="0"> </iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5qB2VDdLEVU?si=4P5UYPzMDToznWX-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 The source code is available on [GitHub](https://github.com/lohchness/music-visualizer).
 
