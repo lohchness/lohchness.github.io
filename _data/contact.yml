@@ -7,7 +7,7 @@
 #   icon: "fa-brands fa-x-twitter"
 
 - type: instagram
-  icon: "fab fa-instagram-square"
+  icon: "fab fa-instagram"
   url: 'https://www.instagram.com/lock.chow'
 
 - type: email
