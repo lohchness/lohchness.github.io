@@ -11,14 +11,13 @@ This website is powered by Ruby and Jekyll.
 
 Hey! Call me Loki.
 
-Check out my other website [here](https://lohchness.vercel.app)!
+Check out my other website [here](https://lohchness.vercel.app)! Social links are in the left sidebar.
 
 I'm studying BSc Computing and Software Systems at University of Melbourne, and I'm going to graduate in Sem 1 2024.
 
 Some things about me:
 
- - I like doodling, reading, and long-distance running.
+ - I like doodling, long-distance running and reading.
  - I can make a mean barbeque brisket.
-
 
 I mess around with code after I realized that I've reached the point where I can do pretty much anything with the skills I have.
