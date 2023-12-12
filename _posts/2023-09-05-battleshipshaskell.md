@@ -45,7 +45,7 @@ A1, D2, B3	| D2, B3, A1	| 3, 0, 0
 The game finishes once the searcher guesses all three ship locations in a single guess (in any order), such as in the last example above. The object of the game for the searcher is to find the target with the fewest 
 possible guesses.
 
-# My approach
+## My approach
 
 My approach to calculate the next guess is as follows:
 

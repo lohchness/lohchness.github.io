@@ -92,13 +92,92 @@ void sprayDots() {
 }
 ```
 
+Here's me manually pulsing the dots, then unpausing the track to demonstrate the velocity and size increase with the beat.
 
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=dj_R4YeGpKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## The Visualizer
 
+The real meat of the code.
+
+```java
+fft = new FFT(track.bufferSize(), track.sampleRate());
+
+fft.logAverages( 100 , 20 );
+fft.window(FFT.HAMMING);
+fft.forward(track.mix);
+
+bar_length = new float[fft.specSize()];
+target_length = new float[fft.specSize()];
+for (int i=0; i<fft.specSize(); i++) {
+    bar_length[i] = 0;
+    target_length[i] = 0;
+}
+```
+
+What `fft.logAverages(100,20)` does is calculate averages based on a minimum octave width of 100Hz, split into 20 bands. The variables `bar_length` and `target_length` are for easing the transformation of the orange lines/bars.
+
+Unfortunately it doesn't seem to work - there is still a steep slope leading up on the leftmost side of the visualizer. So, if you look below, I added a shitty bandaid solution to smooth out this curve. I also modified the values of the latter part of the curve to make it appear more natural.
+
+```java
+for (int i = 0; i < BARS - 10; i++) {
+    
+    if (target_length[i] < BAR_MAX_LENGTH) {
+        target_length[i] = BAR_MAX_LENGTH;
+    }
+    
+    // SHITTY SOLUTION TO A PROBLEM
+    // if first few number of bars then get average of next bars to smooth out curve
+    if (i==0) {
+        target_length[0] = (target_length[0] + target_length[3] + target_length[5]) / 4;
+    }
+    else if (i == 1) {
+        target_length[1] = (target_length[1] + target_length[4] + target_length[6]) / 4;
+    }
+    else if (i == 2) {
+        target_length[2] = (target_length[2] + target_length[5] + target_length[7]) / 4;
+    }
+    
+    //increase size and sensitivity of latter part of bars according to sine wave
+    if (i > int(BARS * 1/3)) {
+        float mult = ((pow(sin(counter),2)) * 5 ) + 1;
+        target_length[i] *= mult;
+        counter += .15;
+    }
+    
+    if (target_length[i] < BAR_MAX_LENGTH) {
+        target_length[i] = BAR_MAX_LENGTH;
+    }
+    
+    // ease rectangle transform
+    float targetX = target_length[i];
+    float dx = targetX - bar_length[i];
+    bar_length[i] += dx * EASING;
+
+    rect(currx, startY, BAR_WIDTH, bar_length[i]);
+    currx += 15;
+    target_length[i] = 0;
+}
+```
+
+To smooth the leftmost side even further into a wave, I added some bars further left:
+
+```java
+// draw bars before first
+// smooth out left side of the visualizer, looks more like a wave than a slope
+int preX = startX - BAR_GAP;
+
+for (int i=NUM_BARS; i>0; i--) {
+    float mapped = map(bar_length[ NUM_BARS - i ],0,BAR_MAX_LENGTH, 0, 1);
+    float bar_height = pow(sin(mapped),2) * BAR_MAX_LENGTH;
+    rect(preX, startY, BAR_WIDTH,  bar_height);
+    preX -= BAR_GAP;
+}
+```
+
 ## The Rest
 
-But I had a working version. I'm missing about half the spectrum - the bass - if you compare it to a Monstercat video, but it works well enough. Most of the work left is to just pore through the sound library Minim's documentation to look for the correct functions to use to get the lower half of the spectrum. Then maybe refactoring some of the code for processing the values before being drawn. But! Here is the (half) working version in high quality and 60 fps:
+But I had a working version. I'm missing about half the spectrum - the bass - if you compare it to a Monstercat video, but it works well enough. Most of the work left is to just pore through the sound library Minim's documentation to look for the correct functions to use to get the lower half of the spectrum. Then maybe refactoring some of the code for processing the values before being drawn. But! Here is the (half) working version in high quality and 60 fps, for a part of the song:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5qB2VDdLEVU?si=4P5UYPzMDToznWX-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
