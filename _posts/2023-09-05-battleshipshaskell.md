@@ -10,9 +10,17 @@ tags: [code]
 
 ## Battleships in Haskell
 
-This is a project for COMP30020 Declarative Programming.
+This is a custom [game](https://en.wikipedia.org/wiki/Battleship_(game)) of Battleship, played on a 4x8 grid, although it could be an arbitrary size - this is just for the time complexity. 
 
-This is similar to the game of Battleship, but played on a 4x8 grid, although it could be an arbitrary size - this is just for the time complexity. This involves one player, the searcher trying to find the locations of three battleships hidden by the other player, the hider. The searcher continues to guess until they find all the hidden ships. [Unlike Battleship](https://en.wikipedia.org/wiki/Battleship_(game)), a guess consists of three different locations, and the game continues until the exact locations of the three hidden ships are guessed in a single guess. After each guess, the hider responds with three numbers: 
+## Why choose Haskell?
+
+I am not aiming for performance or code-writing speed or visuals, but aiming for correctness. Haskell is functionally typed (and hard to learn), and you are going to have to think of game worlds and rules as data, which encourages a data-driven design approach to game systems - the complete reverse of any video game out there. There are no loops like traditional langauges like C, Java, Python, C++, C# - but instead immutable data structures, infinite lists, recursive functions, etc.
+
+I wanted to get more familiar with the purity of the language - no bugs, and the elegance you can do with functions - what would take you many lines in C would take you only a few in Haskell.
+
+## The Game
+
+This involves one player, the searcher, trying to find the locations of three battleships hidden by the other player, the hider. The searcher continues to guess until they find all the hidden ships. Unlike Battleship, a guess consists of three different locations, and the game continues until the exact locations of the three hidden ships are guessed in a single guess. After each guess, the hider responds with three numbers: 
 
 1.  the number of ships exactly located;
 2.  the number of guesses that were exactly one space away from a ship; and
@@ -28,9 +36,7 @@ Each guess is only counted as its closest distance to any ship. For example if a
 | 2 | 1 | 1 | 1 | 2 |
 | 2 | 2 | 2 | 2 | 2 |
 
- Of course, depending on the location of the center square, some of these locations will actually be outside the board.
-
- Here are some example ship locations, guesses, and the feedback provided by the hider:
+Here are some example ship locations, guesses, and the feedback provided by the hider:
  
 Locations	| Guess	| Feedback
 |---|---|---|
@@ -41,9 +47,7 @@ A1, D2, B3	| A3, D2, H1	| 1, 1, 0
 A1, D2, B3	| H4, G3, H2	| 0, 0, 0
 A1, D2, B3	| D2, B3, A1	| 3, 0, 0 
 
-
-The game finishes once the searcher guesses all three ship locations in a single guess (in any order), such as in the last example above. The object of the game for the searcher is to find the target with the fewest 
-possible guesses.
+The game finishes once the searcher guesses all three ship locations in a single guess (in any order), such as in the last example above. The object of the game for the searcher is to find the target with the fewest possible guesses.
 
 ## My approach
 

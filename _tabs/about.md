@@ -11,7 +11,7 @@ This website is powered by Ruby and Jekyll.
 
 Hey! Call me Loki.
 
-Check out my other website [here](https://lohchness.vercel.app)! Social links are in the left sidebar.
+Check out my other website [here](https://lohchness.vercel.app)! Social links are in the left sidebar. See my [GitHub](https://github.com/lohchness) for all my coding projects.
 
 I'm studying BSc Computing and Software Systems at University of Melbourne, and I'm going to graduate in Sem 1 2024.
 

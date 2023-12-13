@@ -23,7 +23,11 @@ Of course, I had already done a few, but usually with After Effects. I wanted to
 
 - it's forked off Java
 
-I was also inspired by [Raven Kwok's](https://ravenkwok.com/) work on various Karma Fields music videos, especially [Edge of the World](https://www.youtube.com/watch?v=E66v5GOPgkU) which was also done with Processing. I thought that once I get this out of the way, I could be confident enough in my skills to take on a project which I had imagined to be featuring dynamic subdivided cubic cells, which could multiply based on a designated distribution pattern for another music video.
+I was also inspired by [Raven Kwok's](https://ravenkwok.com/) work on various Karma Fields music videos, especially [Edge of the World](https://www.youtube.com/watch?v=E66v5GOPgkU) which was also done with Processing. I thought that once I get this out of the way, I could be confident enough in my skills to take on a project which I had imagined to be featuring dynamic subdivided cubic cells, which could multiply based on a designated distribution pattern for another music video. Here's a demo:
+
+![](/assets/images/octtree1.gif)
+
+![](/assets/images/octtree2.gif)
 
 So! The plan was to grab the amplitude of the frequencies from 40Hz to maybe like 2000Hz, map them into an array for the visualizer, process the values for each frame, and draw the values on to the screen. Oh, also spawn dots in the background, and change their velocities according to the volume and beat detector. Sounds easy, right?
 
@@ -94,7 +98,7 @@ void sprayDots() {
 
 Here's me manually pulsing the dots, then unpausing the track to demonstrate the velocity and size increase with the beat.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=dj_R4YeGpKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="750" height="700" src="https://www.youtube.com/watch?v=dj_R4YeGpKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## The Visualizer
 
