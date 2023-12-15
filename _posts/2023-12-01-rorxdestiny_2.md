@@ -11,6 +11,8 @@ So finally with Devlog 1 out of the way, I can finally get on with showing the b
 
 Firstly, I'd like to mention about the iterative process of game design - which is to repeatedly propose, prototype, and playtest again and again. Each time with new ideas learned from each cycle. Instead of focusing on getting things perfect, the game will be iterated upon, and everything here will be replaced some time down the line. I just need to get the base mechanics working before adding personal touches.
 
+Although this is far from my first gamedev project, using Unity and C# is completely new to me.
+
 Not using Java sped up this process significantly. Otherwise, I would have to draw up had models and designs for all the classes required ([da heck is this???](https://github.com/lohchness/pac-man-extended/blob/f41a2aed39e8522755c1c112bedc5d9450f9ca5a/documentation/DesignModel%20-%20Full.pdf)). I shudder to think about what I could have done.
 
 ## Character Animation
