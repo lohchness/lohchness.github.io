@@ -7,7 +7,7 @@ order: 4
 <!-- > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip } -->
 
-This website is powered by Ruby and Jekyll.
+*This website is powered by Ruby and JavaScript, and deployed on GitHub Pages.*
 
 Hey! Call me Loki.
 

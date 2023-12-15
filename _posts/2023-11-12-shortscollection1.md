@@ -9,7 +9,7 @@ image:
 
 ## Intro
 
-These are some parts of very short stories that I make, and/or are interesting to me. I either extend off of existing ideas, or create ones entirely new. These are mostly sci-fi themed.
+These are some parts of very short stories that I make, or are interesting to me. These are mostly sci-fi themed.
 
 ___
 
