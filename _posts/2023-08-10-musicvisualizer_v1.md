@@ -6,6 +6,7 @@ tags: [processing, music, art]     # TAG names should always be lowercase
 image:
     path: /assets/images/spaceplusone.gif
 ---
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/adds.css">
 
 ## Music Visualizer
 

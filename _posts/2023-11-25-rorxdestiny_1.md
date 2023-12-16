@@ -6,6 +6,7 @@ tags: [gamedev]     # TAG names should always be lowercase
 image:
     path: /assets/images/terminal.jpg
 ---
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/adds.css">
 
 
 ## Why did you want to start making this game?

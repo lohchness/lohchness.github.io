@@ -4,6 +4,7 @@ date: 2023-09-05 07:30:10 +0800
 categories: [Projects]
 tags: [code]
 ---
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/adds.css">
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>

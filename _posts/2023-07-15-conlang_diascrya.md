@@ -6,6 +6,7 @@ tags: [lore]
 image:
     path: /assets/images/conlang10.jpg
 ---
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/adds.css">
 
 ## Diascrya
 

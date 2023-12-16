@@ -6,6 +6,7 @@ tags: [gamedev]
 image:
     path: /assets/images/huntress_select.png
 ---
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/adds.css">
 
 So finally with Devlog 1 out of the way, I can finally get on with showing the basic stuff done for the game. This is going to be animations, movements, actions, and plans.
 

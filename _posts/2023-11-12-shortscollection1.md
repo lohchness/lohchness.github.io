@@ -6,6 +6,7 @@ tags: [gamedev, lore]     # TAG names should always be lowercase
 image:
     path: /assets/images/starliner.jpg
 ---
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/adds.css">
 
 ## Intro
 
