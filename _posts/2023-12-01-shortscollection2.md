@@ -6,6 +6,7 @@ tags: [lore]     # TAG names should always be lowercase
 image:
     path: /assets/images/sirocca.jpg
 ---
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/adds.css">
 
 ## Six - Plants and animals of the Sirocca
 
@@ -63,18 +64,19 @@ Although the starcraft was still thousands of kilometres from Cascadia's surface
 
 Cascadia was an ocean planet - 
 
-
-<!-- The colony was doomed from before the start. The objective was to set up a temporary outpost, send a compulse back to Earth to send resupplies, cultivate crops and animals to survive, study the local flora and fauna before being sent back to Sol. It was literally a once-in-a-lifetime opportunity to step foot on a habitable alien world. Everyone who volunteered for the journey knew the risks, the , and that they would likely never see their loved ones again. But their names would be revered for the rest of time.
-
-The journey alone was enough reason to turn back. Aside from the engine failures that delayed the twenty-year journey to the planet by an additional five, a massive radiation storm rendered the reactor unstable, and ravaged essential frozen crops and animals that they brought along with them. The onboard computer was forced to prematurely wake up ten people on a randomized basis to firstly save power, then regrow the lost crops and rebreed the animals.
-
-A vote was held to re-preserve half of the colony - ninety in all - in abeyance until they could recoup their losses and support the entire colony again.
-
-One year - around seven hundred Earth days - later, one of the many mining rigs uncovered . It was known that something was there, but it was initially dismissed as an anomaly, 
-
-The colony was doomed from before the start. -->
-
 ## Eight
+
+The team was doomed from before the start. The objective was to set up a temporary research camp on Aion, and study the planet's geographical anomalies picked up by local system satellites, before being sent back home. It was a five-year mission, and they had enough supplies to last fifty. Besides, they could rely on the nearby moon-colonies if any help was required. It was an ordinary research mission on an even more ordinary planet. Nobody expected it to go wrong.
+
+When they landed, it appeared this was not the first human settlement on the planet. Planetary scans soon after landing revealed small facilities and residences already constructed - mothballed, though - 
+
+The colony was doomed from before the start.
+
+What was, will be.
+
+What will be, was.
+
+## Nine
 
 All our songs were about it. A fantastical realm of life without end. A Palace of untold wonders.
 
