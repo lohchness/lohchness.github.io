@@ -3,21 +3,17 @@ title: Switching game engines to Godot
 date: 2024-02-05 19:20:10 +0800
 categories: [Projects]
 tags: [code, gamedev]
+image:
+    path: /assets/images/godot.png
 ---
 
-We've all heard it countless times - *this* game engine will solve all my problems and it'll be the one I'm looking for!!
+We've all heard it countless times - "*This* game engine will solve all my problems and it'll be the one I'm looking for!!"
 
-But THIS time it's the one for me. Godot is made by gamedevs for gamedevs, and its editor and language is super super nifty and intuitive and more handy than I thought. I'm not going into professional game development but just doing this as a solo side dev, so Godot was perfect - better at 2D than Unity, unbelievably fast code adjusting and running, intuitive game structuring with nodes, no engine bloat, incredibly good UX, the language GDScript is a nice blend of Lua and Python... it just *clicks*.
+But THIS time it's the one for me. Godot is made by gamedevs for gamedevs, and its editor and language is super super nifty and intuitive and more handy than I thought. I'm not going into professional game development (and have you SEEN the gamedev industry) but just doing this as a solo side dev, so Godot was perfect - better at 2D than Unity, unbelievably fast code adjusting and running, intuitive game structuring with nodes, no engine bloat, incredibly good UX, the language GDScript is a nice blend of Lua and Python... it just *clicks*.
 
 So I banged together Pong in a few days, added power ups, some skill, and named it Pongo, with an option to play against another local human opponent, or against the computer.
 
-Here's a demo of me playing against the computer (the computer *can* be beaten with ball speed - like the player, it has a maximum paddle move speed):
-
-
-
-https://github.com/lohchness/lohchness.github.io/assets/50405970/9c1a5d4e-1bdb-4265-91f5-d6621a29044d
-
-
+[Here's a demo of me playing against the computer](https://github.com/lohchness/lohchness.github.io/assets/50405970/9c1a5d4e-1bdb-4265-91f5-d6621a29044d) (the computer *can* be beaten with ball speed - like the player, it has a maximum paddle move speed):
 
 Godot's unique features really made it extremely easy to get around roadblocks I had (which may not be the best practice, but for this scale it's no problem) - namely signals, and nodes.
 
@@ -55,7 +51,7 @@ func _on_body_entered(body):
 
 This signal system is similar to JavaScript's signals, and are superior to Unity's event handling.
 
-Download Pongo here, and view the source code here.
+Download Pongo [here](https://github.com/lohchness/pongo/releases/tag/v5), and view the source code [here](https://github.com/lohchness/pongo).
 
 I have some ideas for a couple upcoming games to show off what this can do (so I guess that's that for RoRxDestiny), but I'll build a couple more small games like this before embarking on the many-month-to-years-long journey.
 
