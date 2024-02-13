@@ -15,6 +15,10 @@ Here's a demo of me playing against the computer (the computer *can* be beaten w
 
 
 
+https://github.com/lohchness/lohchness.github.io/assets/50405970/9c1a5d4e-1bdb-4265-91f5-d6621a29044d
+
+
+
 Godot's unique features really made it extremely easy to get around roadblocks I had (which may not be the best practice, but for this scale it's no problem) - namely signals, and nodes.
 
 Instead of Unity's GameObjects where you attach components (RigidBody, Sprite, etc) to it, in Godot you would have a Node component as the parent, then attach more Nodes to it to make up an object called a Scene. Also unlike Unity, each of Godot's Nodes inherit their parent's functionality. So a RigidBody2D inherits functionality of PhysicsBody2D, which in turn inherits from CollisionObjects2D, Node2D, and so on. As a result I didn't have to reuse scripts or functionality between GameObjects in Unity.
