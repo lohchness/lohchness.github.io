@@ -99,7 +99,7 @@ void sprayDots() {
 
 Here's me manually pulsing the dots, then unpausing the track to demonstrate the velocity and size increase with the beat.
 
-<iframe width="750" height="700" src="https://www.youtube.com/watch?v=dj_R4YeGpKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dj_R4YeGpKM?si=0sgD5401i99fD2dn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## The Visualizer
 
